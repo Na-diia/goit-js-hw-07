@@ -34,7 +34,7 @@ const onImgClick = event => {
  refs.divGallery.addEventListener('keydown', (evt) => {
     if (evt.key === 'Escape') {
         instance.close();
-    }
+    } instance.close();
    }, {once : true});
 };
 
